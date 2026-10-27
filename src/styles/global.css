@@ -1,0 +1,10 @@
+/* Styles shared by every page (Home, Foundation, all others). */
+html {
+  scroll-behavior: smooth;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  height: 72px;
+}
