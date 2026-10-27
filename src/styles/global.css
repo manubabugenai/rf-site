@@ -1,6 +1,8 @@
 /* Styles shared by every page (Home, Foundation, all others). */
 html {
   scroll-behavior: smooth;
+  /* Keep anchor targets below the sticky header (72px), so a jumped-to heading isn't hidden. */
+  scroll-padding-top: 80px;
 }
 
 .site-header {
